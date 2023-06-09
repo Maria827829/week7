@@ -1,0 +1,618 @@
+
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: grid;
+        grid-area: footer;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        padding: 5vh;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas: "header header header header"
+                            "main main main main"
+                            "footer footer footer footer";
+    }
+
+    .news {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 100%;
+    
+        display: grid;
+        height: 20vh;
+        align-items: end;
+        margin: 6%;
+    }
+    .inf {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10%;
+        margin: 6%;
+    }
+
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 18fr 1fr 1fr 1fr 1fr;
+        padding: 3vh;
+    }
+    
+    .logo2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 34%;
+    }
+    
+    .section1 {
+        font-family: 'Open Sans', sans-serif;
+        color: #0A2640;
+        margin: 1vw;
+    }
+    
+    .login {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 2vw;
+        border: 2% solid #0A2640;
+        padding: 5% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 20vw;
+    
+        width: 10vw;
+        background-color: white;
+    }
+    
+    .main {
+        grid-area: main;
+    }
+    
+    .pct1 {
+        max-width: 40vw;;
+    }
+    
+    .h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 30%;
+    }
+    
+    .h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4em;
+        line-height: 250%;
+    }
+    
+    .title {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .title2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 200%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .picture {
+        max-width: 25vw;
+        max-height: 35vh;
+    }
+    
+    .button {
+        display: grid;
+        justify-content: center;
+        margin: 2%;
+        padding: 10vh;
+    }
+    
+    .more {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        border: 2% solid #0A2640;
+        padding: 7% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 25vw;
+    
+        width: 13vw;
+        background-color: white;
+    }
+    
+    .mail {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background: #0A2640;
+        border-radius: 1%;
+        max-width: 87%;
+        height: 15%;
+        margin: 7%;
+    }
+    
+    .web {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 180%;
+        text-align: center;
+        color: white;
+    }
+    
+    .input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2%;
+    }
+    .email {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 10%;
+        padding: 3% 10%;
+    
+        background: #FFFFFF;
+        border: 0.2vw solid #FFFFFF;
+        border-radius: 240vw;
+    }
+    
+    .button2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        padding: 2% 5%;
+        background: #65E4A3;
+    
+        border: 0.2vw solid #65E4A3;
+        border-radius: 4vw;
+    }
+    
+    .inf2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 150%;
+    }
+    
+    .section2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 200%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+    .footer {
+        display: none;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas: "header header"
+                            "main main";
+    }
+
+    .news {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 100%;
+        display: grid;
+        height: 20vh;
+        align-items: end;
+        margin: 6%;
+    }
+    .inf {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        margin: 6%;
+    }
+
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 18fr 1fr 1fr 1fr 1fr;
+        padding: 3vh;
+    }
+
+    .logo2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 34%;
+    }
+    
+    .section1 {
+        font-family: 'Open Sans', sans-serif;
+        color: #0A2640;
+        margin: 1vw;
+    }
+    
+    .login {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 2vw;
+        border: 2% solid #0A2640;
+        padding: 5% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 20vw;
+    
+        width: 10vw;
+        background-color: white;
+    }
+    
+    .main {
+        grid-area: main;
+    }
+    
+    .pct1 {
+        max-width: 40vw;;
+    }
+    
+    .h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 30%;
+    }
+    
+    .h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4em;
+        line-height: 250%;
+    }
+    
+    .title {
+        display: grid;
+        justify-items: center;
+    }
+    
+    .title2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 200%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .picture {
+        max-width: 25vw;
+        max-height: 35vh;
+    }
+    
+    .button {
+        display: grid;
+        justify-content: center;
+        margin: 20%;
+        padding: 10vh;
+    }
+    
+    .more {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        border: 2% solid #0A2640;
+        padding: 7% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 25vw;
+    
+        width: 13vw;
+        background-color: white;
+    }
+    
+    .mail {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background: #0A2640;
+        border-radius: 1%;
+        max-width: 87%;
+        height: 15%;
+        margin: 7%;
+    }
+    
+    .web {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 180%;
+        text-align: center;
+        color: white;
+    }
+    
+    .input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2%;
+    }
+    .email {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 10%;
+        padding: 3% 10%;
+    
+        background: #FFFFFF;
+        border: 0.2vw solid #FFFFFF;
+        border-radius: 240vw;
+    }
+    
+    .button2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        padding: 2% 5%;
+        background: #65E4A3;
+    
+        border: 0.2vw solid #65E4A3;
+        border-radius: 4vw;
+    }
+    
+    .inf2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 150%;
+    }
+    
+    .section2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 200%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        display: none;
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas: "header"
+                            "main";
+    }
+
+    .news {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 100%;
+        display: grid;
+        height: 20vh;
+        align-items: end;
+        margin: 6%;
+    }
+    .inf {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        margin: 6%;
+    }
+
+    .header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    }
+
+    .logo2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 34%;
+    }
+    
+    .section1 {
+        font-family: 'Open Sans', sans-serif;
+        color: #0A2640;
+        margin: 1vw;
+    }
+    
+    .login {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 2vw;
+        border: 2% solid #0A2640;
+        padding: 5% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 20vw;
+    
+        width: 10vw;
+        background-color: white;
+    }
+    
+    .main {
+        grid-area: main;
+    }
+    
+    .pct1 {
+        max-width: 80vw;
+        text-align: center;
+    }
+    
+    .h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 30%;
+    }
+    
+    .h2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3em;
+        line-height: 250%;
+    }
+    
+    .title {
+        display: grid;
+        text-align: center;
+    }
+    
+    .title2 {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 200%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .picture {
+        max-width: 40vw;
+        max-height: 35vh;
+    }
+    
+    .button {
+        margin: 30vw;
+        padding: 10vh;
+    }
+    
+    .more {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        border: 2% solid #0A2640;
+        padding: 7% 15%;
+        border: 2% solid #0A2640;
+        border-radius: 30vw;
+    
+        width: 20vw;
+        background-color: white;
+    }
+    
+    .mail {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background: #0A2640;
+        border-radius: 1%;
+        max-width: 82%;
+        height: 15%;
+        margin: 7%;
+    }
+    
+    .web {
+        font-family: 'Manrope', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5em;
+        line-height: 180%;
+        text-align: center;
+        color: white;
+    }
+    
+    .input {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2%;
+    }
+    .email {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 10%;
+        padding: 3% 10%;
+    
+        background: #FFFFFF;
+        border: 0.2vw solid #FFFFFF;
+        border-radius: 240vw;
+    }
+    
+    .button2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 100%;
+        padding: 2% 5%;
+        background: #65E4A3;
+    
+        border: 0.2vw solid #65E4A3;
+        border-radius: 4vw;
+    }
+    
+    .inf2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 150%;
+    }
+    
+    .section2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 200%;
+    }
+}
